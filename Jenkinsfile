@@ -4,7 +4,7 @@
 
           environment {
 
-             PYTHON_HOME =  'C:\Users\fzfat\AppData\Local\Programs\Python\Python310'
+             PYTHON_HOME =  'C:\\Users\\fzfat\\AppData\\Local\\Programs\\Python\\Python310'
 
              PATH = '${env.PATH};${JAVA_HOME}\\bin;${PYTHON_HOME}'
          }
