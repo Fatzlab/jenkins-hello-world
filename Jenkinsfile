@@ -1,14 +1,8 @@
  pipeline {
 
           agent any
-
-          environment {
-
-            
-            
-             PYTHON_HOME =  '/usr/bin/python3'
-
-            
+          environment {       
+             PYTHON_HOME =  '/usr/bin/python3'         
          }
             
           stages {
@@ -21,11 +15,12 @@
 
                           // Choisissez la commande en fonction de votre script
 
-                          sh 'python3 hello.py' // Pour Python
-
-                       
+                          sh 'python3 hello.py' // Pour Python         
                       }
 
                   }
 
               }
+           
+         }
+  }
