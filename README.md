@@ -1,6 +1,6 @@
 Run python Script
-python hello.py
+python3 hello.py
 # Bonjour Jenkins
 
 
-Fatma 
+Fatma first step linux
